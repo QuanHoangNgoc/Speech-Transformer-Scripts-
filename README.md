@@ -19,13 +19,17 @@ cd Speech2Text
 pip install -r requirements.txt
 ```
 
-Make sure you have Python 3.6 or higher and the necessary libraries installed.
+Could you ensure you have installed Python 3.6 or higher and the necessary libraries?
 
 ## Usage
-To run the training process, execute the following command:
-
+- To run the training process, execute the following command:
 ```bash
 python train_model.py
+```
+
+To build feature-npy files, check the code at:
+```bash
+python convert_to_np.py
 ```
 
 ## Setting 
