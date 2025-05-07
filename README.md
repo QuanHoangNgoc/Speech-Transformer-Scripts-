@@ -10,6 +10,17 @@ The Speech2Text project is designed to train a speech recognition model using a 
 - Learning rate scheduling.
 - Reproducibility through random seed setting.
 
+## Project Structure
+The project is organized as follows:
+- **`train_model.py`**: Contains the main logic for training the speech recognition model, including data loading, model initialization, and training loop.
+- **`preprocessor.py`**: Includes functions for loading and preprocessing the dataset.
+- **`score.py`**: Implements functions for calculating evaluation metrics such as loss and Word Error Rate (WER).
+- **`speech_transformer.py`**: Defines the architecture of the speech transformer model.
+- **`requirements.txt`**: Lists the required Python packages for the project.
+- **`points/`**: Directory where model checkpoints are saved during training.
+- **`NP/`**: contains all feature-npy files.
+- **`metadata/`**: train.json, dev.json, test.json 
+
 ## Installation
 To set up the project, clone the repository and install the required dependencies:
 
